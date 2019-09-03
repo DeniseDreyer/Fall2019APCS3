@@ -9,6 +9,7 @@ public class Calculate {
 		int answer=0;
 		answer = number * number;
 		return answer;
+		//return number* number;
 	}
 	
 	//A call to cube returns the cube of the value passed.  The method accepts an integer and returns an integer
@@ -17,10 +18,11 @@ public class Calculate {
 		answer = number * number*number;
 		return answer;
 	}
-	//A call to average returns the average of the values passed to it.  The method accepts two doubles and returns a double
-		public static int average(int number) {
-			int answer=0;
-			answer = number * number*number;
+	//A call to average returns the average of the values passed to it.  
+	//The method accepts two doubles and returns a double
+		public static double average(double number1, double number2) {
+			double answer=0;
+			answer = (number1 + number2)/2;
 			return answer;
 		}
 }
